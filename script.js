@@ -37,7 +37,7 @@ function openPack() {
             num = randomNumber(17, 102);
         }
 
-        cardImg.src = "/pokemon-cards/base set (" + num.toString() + ").jpg";
+        cardImg.src = "./pokemon-cards/base set (" + num.toString() + ").jpg";
 
         cardDiv.appendChild(cardImg);
         document.getElementById("pokemon-cards-opened").appendChild(cardDiv);
